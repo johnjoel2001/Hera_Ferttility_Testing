@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pkl
+*.egg-info/
+*.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# FAISS index (if generated dynamically)
+*.faiss
+*.npy
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode or other IDEs
+.vscode/
+.idea/
+
+# Logs and cache
+*.log
+*.cache
+*.sqlite
+
+# Streamlit Cloud generated files
+*.pyre/
+.mypy_cache/

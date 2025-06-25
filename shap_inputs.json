@@ -1,0 +1,17 @@
+{
+  "fertility_score": 5.48,
+  "features": {
+    "Volume": {
+      "value": 4.0,
+      "impact": 0.009035096780482255
+    },
+    "Concentration": {
+      "value": 27.0,
+      "impact": -0.5473487182918081
+    },
+    "Motility": {
+      "value": 13.0,
+      "impact": -3.243673460592169
+    }
+  }
+}
