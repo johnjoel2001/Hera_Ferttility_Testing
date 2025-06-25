@@ -18,7 +18,7 @@ api_key = os.getenv("GOOGLE_API_KEY")
 genai.configure(api_key=api_key)
 
 # ✅ Load model and feature names from dictionary
-with open("logistic regression (1).pkl", "rb") as f:
+with open("logistic_regression.pkl", "rb") as f:
     package = pickle.load(f)
     model = package["model"]
     feature_names = package["feature_names"]
